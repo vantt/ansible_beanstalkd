@@ -1,0 +1,5 @@
+---
+beanstalkd_version: "1.10"
+beanstalkd_listen_addr: "0.0.0.0"
+beanstalkd_user: "beanstalkd"
+beanstalkd_storage: "/home/beanstalkd"
