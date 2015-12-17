@@ -3,7 +3,7 @@ Description=Beanstalkd is a simple, fast work queue
 
 [Service]
 User={{beanstalkd_user}}
-ExecStart=/usr/local/bin/beanstalkd -b {{beanstalkd_storage}} -f 60000 -l {{beanstalkd_listen_addr}}
+ExecStart=/bin/beanstalkd -b {{beanstalkd_storage}} -f 60000 -l {{beanstalkd_listen_addr}}
 
 [Install]
 WantedBy=multi-user.target
